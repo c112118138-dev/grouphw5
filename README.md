@@ -31,7 +31,7 @@ classDiagram
     }
     Nurse --> NISSystem : 操作查詢
     Nurse --> Patient : 檢查
-    Patient --> PatientRecord : 擁有紀錄
+    Patient --> PatientRecord : 紀錄
     NISSystem --> Patient : 管理資料
     AIAnalysis --> SOPProcedure : SOP比對
     NISSystem --> AIAnalysis : 傳送資料
